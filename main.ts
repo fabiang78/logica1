@@ -8,7 +8,7 @@ basic.forever(function () {
         basic.pause(1000)
         basic.clearScreen()
     } else if (input.pinIsPressed(TouchPin.P1)) {
-        basic.showNumber(0)
+        basic.showNumber(1)
         basic.pause(1000)
         basic.clearScreen()
     } else {
